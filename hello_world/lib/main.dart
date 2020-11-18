@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyAPP);
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Hello, Sausages!'),
         ),
-        body: Text("First flutter app!"),
+        body: Center(child: Text("First flutter app!")),
       ),
     );
   }
